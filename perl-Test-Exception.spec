@@ -1,7 +1,7 @@
 %define module  Test-Exception
 %define name	perl-%{module}
 %define	modprefix Test
-%define version 0.25
+%define version 0.26
 %define release %mkrel 1
 
 Name: 		%{name}
