@@ -21,7 +21,6 @@ BuildRequires:	perl(Test::More) >= 0.44
 BuildRequires:	perl(Sub::Uplevel) >= 0.06
 BuildRequires:	perl(Test::Builder::Tester) >= 1.01
 BuildArch: 	    noarch
-BuildRoot: 	    %{_tmppath}/%{name}-%{version}
 
 %description 
 This module provides a few convenience methods for testing
