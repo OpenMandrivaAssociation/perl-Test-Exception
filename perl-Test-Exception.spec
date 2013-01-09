@@ -12,6 +12,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires:	perl(JSON:PP)
 BuildRequires:	perl(Test::Builder) >= 0.13
 BuildRequires:	perl(Test::Harness) >= 2.03
 BuildRequires:	perl(Test::More) >= 0.44
