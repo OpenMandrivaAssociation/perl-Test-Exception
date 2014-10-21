@@ -1,14 +1,14 @@
 %define modname	Test-Exception
-%define modver 0.32
+%define modver 0.35
 
 Summary:	Test exception based code
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	4
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-Exception-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl-JSON-PP
@@ -44,5 +44,3 @@ rm -f %{buildroot}%{perl_archlib}/perllocal.pod
 %doc Changes README
 %{perl_vendorlib}/Test
 %{_mandir}/man3/*
-
-
