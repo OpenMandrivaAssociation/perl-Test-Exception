@@ -1,10 +1,10 @@
 %define modname	Test-Exception
-%define modver 0.35
+%define modver 0.38
 
 Summary:	Test exception based code
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	2
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
