@@ -1,14 +1,13 @@
 %define modname	Test-Exception
-%define modver 0.35
 
 Summary:	Test exception based code
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	3
+Version:	0.43
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl-JSON-PP
@@ -27,7 +26,7 @@ If you are not familiar with Test::Simple or Test::More
 now would be the time to go take a look.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%setup -qn %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -41,6 +40,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 rm -f %{buildroot}%{perl_archlib}/perllocal.pod
 
 %files
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/Test
 %{_mandir}/man3/*
