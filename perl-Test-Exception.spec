@@ -3,7 +3,7 @@
 Summary:	Test exception based code
 Name:		perl-%{modname}
 Version:	0.43
-Release:	2
+Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
