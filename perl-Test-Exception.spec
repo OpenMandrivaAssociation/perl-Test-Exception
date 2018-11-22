@@ -3,10 +3,10 @@
 Summary:	Test exception based code
 Name:		perl-%{modname}
 Version:	0.43
-Release:	4
+Release:	5
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		http://metacpan.org/pod/Test::Exception
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
