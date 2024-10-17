@@ -6,7 +6,7 @@ Version:	0.43
 Release:	9
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/Test::Exception
+Url:		https://metacpan.org/pod/Test::Exception
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
