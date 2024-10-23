@@ -3,7 +3,7 @@
 Summary:	Test exception based code
 Name:		perl-%{modname}
 Version:	0.43
-Release:	9
+Release:	10
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Exception
