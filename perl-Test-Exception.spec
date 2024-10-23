@@ -14,7 +14,7 @@ BuildRequires:	perl-JSON-PP
 BuildRequires:	perl(Test::Builder) >= 0.13
 BuildRequires:	perl(Test::Harness) >= 2.03
 BuildRequires:	perl(Test::More) >= 0.44
-BuildRequires:	perl(Sub::Uplevel) >= 0.06
+BuildRequires:	perl(Sub::Uplevel)
 BuildRequires:	perl(Test::Builder::Tester) >= 1.01
 
 %description 
