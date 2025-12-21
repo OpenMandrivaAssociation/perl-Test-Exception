@@ -9,6 +9,7 @@ Group:		Development/Perl
 Url:		https://metacpan.org/pod/Test::Exception
 Source0:	http://www.cpan.org/modules/by-module/Test/%{modname}-%{version}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl-JSON-PP
 BuildRequires:	perl(Test::Builder) >= 0.13
